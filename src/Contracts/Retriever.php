@@ -10,4 +10,5 @@ interface Retriever
     public function customers();
 
     public function orders();
+
 }

@@ -3,20 +3,22 @@ namespace Robin\Support\Contracts;
 
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Psr7\Response;
+use Robin\Api\Collections\Customers;
+use Robin\Api\Collections\Orders;
 
 interface Sender
 {
     /**
-     * @param $orders
+     * @param Orders $orders
      * @return Response
      */
-    public function orders($orders);
+    public function orders(Orders $orders);
 
     /**
-     * @param  $customers
+     * @param Customers $customers
      * @return Response
      */
-    public function customers($customers);
+    public function customers(Customers $customers);
 
     public function setClient(ClientInterface $client);
 }
