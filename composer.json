@@ -9,8 +9,14 @@
     }
   ],
   "minimum-stability": "stable",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "/Users/bwubs/Werk/Robin/Modules/Api"
+    }
+  ],
   "require": {
-    "guzzlehttp/guzzle": "~6.0"
+    "robin/api": "dev-master"
   },
   "autoload": {
     "psr-4": {
