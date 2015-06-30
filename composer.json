@@ -1,0 +1,20 @@
+{
+  "name": "robin/support",
+  "description": "Contracts for the robin packages",
+  "license": "GPL v3",
+  "authors": [
+    {
+      "name": "Bram Wubs",
+      "email": "bwubs@me.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Robin\\Support\\": "src"
+    }
+  }
+}
