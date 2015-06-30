@@ -9,15 +9,6 @@
     }
   ],
   "minimum-stability": "stable",
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "/Users/bwubs/Werk/Robin/Modules/Api"
-    }
-  ],
-  "require": {
-    "robin/api": "0.1.0"
-  },
   "autoload": {
     "psr-4": {
       "Robin\\Support\\": "src"
