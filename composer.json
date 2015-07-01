@@ -1,6 +1,6 @@
 {
   "name": "robin/support",
-  "description": "Contracts for the robin packages",
+  "description": "Support library for the ROBIN API packages",
   "license": "GPL v3",
   "authors": [
     {
