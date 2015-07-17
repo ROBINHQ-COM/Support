@@ -1,7 +1,7 @@
 {
   "name": "robinhq/support",
   "description": "Support library for the ROBIN API packages",
-  "license": "GPL v3",
+  "license": "GPL-3.0",
   "authors": [
     {
       "name": "Bram Wubs",
